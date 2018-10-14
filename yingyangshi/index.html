@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.header{
+			width: 100%;
+			height: 30px;
+		}
+		.headson{
+			width: 1000px;
+			height: 30px;
+			/*background-color: red;*/
+			margin: 0 auto;
+		}
+		.headRight{
+			width: 200px;
+			/*background-color: green;*/
+			float: right;
+		}
+		.aleft{
+			float: left;
+			height: 30px;
+			line-height: 30px;
+			font-size: 10px;
+		}
+		.aright{
+			float: right;
+			height: 30px;
+			line-height: 30px;
+			font-size: 10px;
+		}
+		.headLeft{
+			/*float: left;*/
+			height: 30px;
+			background-position: left center;
+		}
+		.aleft a,.aright a{
+			text-decoration: none;
+			color: black;
+		}
+		.aleft a:hover,.aright a:hover{
+			color: red;
+		}
+
+
+
+		.bg{
+			height: 500px;
+			background-image: url(./4.png);
+			/*background-repeat: repeat;*/
+		}
+		.kongbai{
+			width: 100%;
+			height: 30px;
+			background-color: #222222;
+		}
+
+		.content{
+			width: 100%;
+			height: 200px;
+			background-color: #222222;
+			color: #AAA9A7;
+
+		}
+		.contentson{
+			width: 1000px;
+			height: 200px;
+			background-color: #222222;
+			margin: 0 auto;
+			
+
+		}
+		.bleft{
+			width: 380px;
+			height: 200px;
+			float: left;
+			/*border: 1px solid blue;*/
+		}
+		.bcenter{
+			width: 300px;
+			height: 200px;
+			float: left;
+			background-image: url(./5.png);
+			margin-left: 20px;
+		}
+		.bright{
+			width: 270px;
+			height: 200px;
+			float: left;
+			/*border: 1px solid blue;*/
+			margin-left: 20px;
+			background-color: #333333;
+		}
+
+
+		.ctop{
+			width: 400px;
+			height: 40px;
+		}
+		.ctop .imgjia{
+			float: right;
+			margin-right: 20px;
+		}
+		hr{
+			
+			height: 2px;
+			border: none;
+			background-color: #2B2B2B;
+		}
+		.bleft ul{
+			margin-top: 5px;
+		}
+		.bleft ul li{
+			list-style-image: url(./8.png);
+			list-style-position: inside;
+			 margin:0; 
+			 padding:0; 
+			 height: 25px;
+		}
+		.bright .yxjj{
+			font-size: 20px;
+		}
+		.bright .jiejie{
+			font-size: 14px;
+		}
+		.bright .yxlt{
+			width: 100px;
+			margin-left: 80px;
+		}
+
+		.footer{
+			width: 100%;
+			height: 160px;
+			background-color: #2B1426;
+
+		}
+		.footson{
+			width: 1000px;
+			height: 160px;
+			/*background-color: #2B1426;*/
+			margin: 0 auto;
+			/*border: 1px solid red;*/
+			background-color: #2B1426;
+			/*float: left;*/
+		}
+		.footLeft{
+			float: left;
+			height: 130px;
+			margin-top: 30px;
+		}
+		.footRight{
+			/*float: left;*/
+			margin-left: 400px;
+			padding-top: 30px;
+			font-size: 14px;
+			color: #915D6A;
+
+		}
+		.footRight ul li{
+			list-style: none;
+			float: left;
+			margin:5px;
+			font-size: 14px;
+			color: #915D6A;
+		}
+	</style>
+</head>
+<body>
+	<!-- 头部区域 -->
+
+	<div class="header">
+		<!-- 头部子级 1000px -->
+		<div class="headson">
+			<!-- 头部右边再分为两部分，aleft，aright -->
+			<div class="headRight">
+				<div class="aleft">
+					 <img class="1png" src="./1.png" alt="" height="10px">
+					<span><a href="#">登录</a> | <a href="#">注册</a></span>
+				</div>
+				<div class="aright">
+					<span><a href="#">全部游戏</a></span>
+					<img src="3.png" alt="" height="10px" >
+
+				</div>
+			</div>
+			<div class="headLeft">
+				<img src="./2.png" alt="" height="10px" >
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 背景区 -->
+	<div class="bg">
+		<!-- <img src="4.png" alt=""  > -->
+	</div>
+
+	<!-- 空白区 -->
+	<div class="kongbai"></div>
+
+	<!-- 内容区 -->
+	<div class="content">
+		<div class="contentson">
+			<!-- 内容区分为bleft bcenter bright -->
+			<div class="bleft">
+			<!-- bleft分为ctop cbottom -->
+				<div class="ctop">
+					新闻公告  &nbsp;&nbsp;  活动  &nbsp;&nbsp;&nbsp;   攻略 
+					<img class="imgjia" src="./6.png" alt="">
+				</div>
+				<hr>
+				<ul>
+					<li>&nbsp; 《阴阳师》夏日花火会开启 玉藻前前结界 &nbsp; 07-10 </li>
+					<li>&nbsp; 《阴阳师》 x 《犬夜叉》 联动角色获得&nbsp;&nbsp; &nbsp;&nbsp; 07-06</li>
+					<li>&nbsp; 《阴阳师 烟烟罗浴衣新装降临 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 07-04</li>
+					<li>&nbsp; 《阴阳师》 食发鬼花火会主题新降临 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;07-04
+					<li>&nbsp; 《阴阳师》 x 《犬夜叉》 联动情报 ：半 &nbsp; &nbsp;&nbsp;06-27</li>
+					<li>&nbsp; &nbsp; 犬夜叉、 杀生丸降临！ 《阴阳师》 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;06-25</li>
+				</ul>
+			</div>
+			<div class="bcenter"></div>
+			<div class="bright">
+				<span class="yxjj">游戏简介</span> <br>
+				<span class="jiejie">结界震荡，流云乱舞，最近的平安京似乎又将引来一场大风波。 《阴阳师》全新资料片第二弹 “新年祭.年始初诣” 拉开序幕，呆萌的呱太、愤怒的石距陆续来袭，请各位阴阳师做好应战准备！还有更多惊喜活动等你来看！</span> <br>
+				<img src="./9.png" alt="" class="yxlt">
+			</div>	
+		</div>
+
+
+	<!-- 底部 -->
+	<div class="footer">
+		<div class="footson">
+			<div class="footLeft">
+				<img src="./7.png" alt="" height="100px">
+			</div>
+			<div class="footRight">
+				<ul>
+					<li>关于StarGame</li>
+					<li>|</li>
+					<li>招聘信息</li>
+					<li>|</li>
+					<li>用户协议</li>
+					<li>|</li>
+					<li>法律声明</li>
+					<li>|</li>
+					<li>家长监护</li>
+					<li>|</li>
+					<li>网站地图</li>
+				</ul>
+				<br>
+				<br>
+				<br>
+				 &nbsp;渝ICP备14007792号-4&nbsp;&nbsp;渝网文[2015]1042号<br>	
+				 &nbsp;重庆星游传媒有限公司 Copyright &copy; 2014-2015
+			</div>
+		</div>
+	</div>
+</body>
+</html>
